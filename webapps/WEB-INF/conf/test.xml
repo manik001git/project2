@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<passwords>
+	<password>
+		<name>EPFO - EPF portal</name>
+		<username>101150372978</username>
+		<shift>2</shift>
+		<value>{{name}}12{{s3}}</value>
+	</password>
+	<password>
+		<name>EPFO - EPF portal</name>
+		<username>101150372978</username>
+		<shift>2</shift>
+		<value>{{name}}12{{s3}}</value>
+	</password>
+</passwords>

@@ -1,0 +1,19 @@
+
+html,body {height:100%;padding:0;margin:0;}
+td, th {display:table-cell;vertical-align:inherit;}
+body,input,select,textarea {border:0 none;font-family:'LatoRegular',Helvetica,sans-serif;text-align:left;margin: 0;padding: 0;background-attachment: fixed;outline: none;-webkit-font-smoothing: antialiased!important;-moz-osx-font-smoothing: grayscale!important;overflow: hidden;}
+
+.w100per{width:100% !important}.w90per{width:90% !important}.w80per{width:80% !important}.w70per{width:70% !important}.w60per{width:60% !important}.w50per{width:50% !important}
+.h100per{height:100% !important}.h90per{height:90% !important}.h80per{height:80% !important}.h70per{height:70% !important}.h60per{height:60% !important}.h50per{height:50% !important}
+.overflowhide{overflow:hidden;}
+
+
+
+
+
+/*-------Top Main Menu------*/
+.freezescreen{z-index: 6000;background-color:rgba(42, 49, 61, 0.9);display:flex;position:absolute;width:100%;height:100%;top:0;-webkit-animation-name:example;-webkit-animation-duration:0.3s;animation-name:example;animation-duration:0.3s;animation-fill-mode:forwards;opacity:0;}
+.opt-anim{-webkit-animation-name:example4;-webkit-animation-duration:0.4s;animation-name:example4;animation-duration:0.4s;backface-visibility:hidden;}
+.top_banner{background-color:#162838;color:#fff;font-family:'LatoRegular';z-index:6000;height:40px;width:100%;position:relative;}
+.main_menu_box{height:3.214rem;font-family:LatoRegular;display:inline-block;font-size:1.035rem;margin-left:0.142rem;width:100%;}
+.main_menu_icons{cursor:pointer;display:inline-block;padding:0.928rem 0.714rem;height:1.285rem;vertical-align:top;}

@@ -1,0 +1,91 @@
+/* $Id$ */
+.selectJs-dropdown-container {box-sizing: border-box;display: inline-block;margin: 0;vertical-align: middle;outline: none;position: absolute;background: #ffffff;border: 1px solid #efefef;z-index: 12000;}
+.selectJs-dropdown-container .selectJs-dropdown-results {white-space: nowrap;max-width: 950px;min-width: 200px;width: 100%;}
+.selectJs-dropdown-container .selectJs-dropdown-results .selectJs-dropdown-results-options {list-style: none;margin: 0;padding: 0;max-height: 13rem;overflow-y: auto;}
+.selectJs-dropdown-container .selectJs-dropdown-results .selectJs-dropdown-results-option {padding: 0.857rem 1rem;user-select: none;-webkit-user-select: none;border-bottom: 0.5px solid #efefef;border-top: 0.5px solid #efefef;cursor: pointer;}
+
+.selectJS-select-container {box-sizing: border-box;display: inline-block;margin: 0;vertical-align: middle;width: 100% !important;outline: none;}
+.selectJS-select-container .selectJS-selection {display: block;vertical-align: top;float: left;width: 100%;}
+.selectJS-select-container .selectJS-selection .selectJS-selection-single {font-size: 1.071rem !important; outline: none;display: inline-block;width: 100%; vertical-align: top;box-sizing: border-box;cursor: pointer;height: 2.287rem;user-select: none;-webkit-user-select: none;}
+.selectJS-select-container .selectJS-selection .selectJS-selection-single .selectJS-selection-rendered {
+	display: block;
+    padding-left: 3%;
+    padding-right: 1.988rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 21.428rem;
+    color: #000;
+    line-height: 2.357rem;
+    outline: none;
+}
+.selectJS-select-container .selectJS-selection .selectJS-selection-multiple {outline: 0;width: 100%;background: #fff;background-color: #fff;border-radius: 4px;cursor: text;min-height: 2.6rem;display: inline-block;}
+.selectJS-select-container .selectJS-selection .selectJS-selection-multiple .selectJS-selection-rendered-ul {
+	box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    min-height: 2.15rem;
+    max-height: 11.428rem;
+    overflow-y: auto;
+    padding-bottom: 0px;
+    display: inline-block;
+    overflow: hidden;
+    padding-left: 0.47rem;
+    padding-right: 3.5rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 0px;
+}
+.selectJS-select-container .selectJS-selection .selectJS-selection-multiple .selectJS-selection-rendered-ul .selectJS-selection-rendered-li{
+	border-radius: 1px;
+    cursor: default;
+    float: left;
+    font-size: 1rem;
+    margin-right: 0.357rem;
+    margin-left: auto !important;
+    margin-bottom: 0.214rem;
+    padding: 0.071rem 0.357rem 0.142rem 0.5rem;
+    margin-top: 0.357rem;
+    box-shadow: 0 1px 0px 0.99px #e2e2e2;
+    background-color: #ffffff !important;
+    border-right: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+    max-width: 82%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+} 
+
+.selectJS-select-container .selectJS-selection .selectJS-selection-multiple .selectJS-selection-rendered-ul .selectJS-selection-rendered-li .selectJS-selection-rendered-remove {
+	background: #ffffff;
+    color: rgb(122, 122, 122);
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    margin-left: 0.357rem;
+    padding: 0 0.357rem;
+    position: relative;
+    font-size: 1.035rem !important;
+}
+
+
+.selectJS-selectbox {
+	border: 0 !important;
+    clip: rect(0 0 0 0) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+
+.selectJS-searchbox {display: block;padding: 0.714rem 0.714rem;background: #fff;margin: 0px;white-space: nowrap;}
+.selectJS-searchbox .selectJS-searchinput {padding-left: 2.357rem;outline: none;background-color: #ffffff;border: 1px solid #e7e7e7;font-size: 1.071rem;border-radius: 2px;padding: 0.285rem;width: 100%;height: 2.5rem;box-sizing: border-box;}
+
+
+
+
+
+

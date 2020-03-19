@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tables>
+
+<!-- Framework  tables started -->
+<table name="CustomerDatabase">
+	<column>
+		<name>CUSTOMER_ID</name>
+		<data-type>BIGINT</data-type>
+		<nullable>false</nullable>
+	</column>
+	<column>
+		<name>DATABASE_NAME</name>
+		<data-type>VARCHAR</data-type>
+		<nullable>false</nullable>
+	</column>
+</table>
+
+<table name="CustomerUserMapping">
+	<column>
+		<name>CUSTOMER_ID</name>
+		<data-type>BIGINT</data-type>
+		<nullable>false</nullable>
+	</column>
+	<column>
+		<name>USER_ID</name>
+		<data-type>BIGINT</data-type>
+		<nullable>false</nullable>
+	</column>
+</table>
+
+<!-- Framework  tables end -->
+
+<!-- project table starts -->
+<table name="RandomIDGenerator">
+	<column>
+		<name>ORG_ID</name>
+		<data-type>BIGINT</data-type>
+		<nullable>false</nullable>
+	</column>
+	<column>
+		<name>ENTITY_ID</name>
+		<data-type>BIGINT</data-type>
+		<nullable>false</nullable>
+	</column>
+</table>
+
+<table name="UserDetails">
+	<column>
+		<name>USER_ID</name>
+		<data-type>BIGINT</data-type>
+		<nullable>false</nullable>
+	</column>
+	<column>
+		<name>NAME</name>
+		<data-type>VARCHAR</data-type>
+		<nullable>false</nullable>
+	</column>
+	<column>
+		<name>IS_ADMIN</name>
+		<data-type>TINYINT</data-type>
+		<default-value>0</default-value>
+	</column>
+</table>
+
+<table name="Passwords">
+	<column>
+		<name>PASSWORD_ID</name>
+		<data-type>BIGINT</data-type>
+		<nullable>false</nullable>
+	</column>
+	<column>
+		<name>NAME</name>
+		<data-type>TEXT</data-type>
+		<nullable>false</nullable>
+	</column>
+	<column>
+		<name>VALUE</name>
+		<data-type>ENCRYPTED</data-type>
+		<nullable>false</nullable>
+	</column>
+	<column>
+		<name>TYPE</name>
+		<data-type>TINYINT</data-type>
+		<default-value>0</default-value>
+	</column>
+	<primary-key>
+		<primary-key-column>PASSWORD_ID</primary-key-column>
+	</primary-key>
+</table>
+
+</tables>
